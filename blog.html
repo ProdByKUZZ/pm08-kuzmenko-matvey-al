@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог - Статьи о Дизайне</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">PROD BY KUZZ</a>
+            </div>
+             <div class="profile-pic-container">
+                <img src="images/profile-header.jpg" alt="Мое фото" class="profile-pic-header">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="skills.html">Навыки</a></li>
+                    <li><a href="blog.html" class="active">Блог</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Сменить тему"><i class="fas fa-moon"></i></button>
+            <button class="menu-toggle" aria-label="Открыть меню"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section id="blog-page">
+            <div class="container">
+                <h2>Мой Блог о Дизайне</h2>
+                <div class="articles-grid">
+                    <div class="article-card">
+                        <h3>Психология цвета в дизайне обложек</h3>
+                        <p class="article-summary">Цвет — мощный инструмент в руках дизайнера. Он способен вызывать эмоции, передавать настроение и привлекать внимание. В этой статье мы разберем, как разные цвета влияют на восприятие музыкальной обложки...</p>
+                        <button class="read-more-btn" aria-expanded="false">Читать далее</button>
+                        <div class="article-full-content">
+                            <p>Красный часто ассоциируется с энергией, страстью, но также и с агрессией. Синий — с спокойствием, доверием, глубиной. Зеленый — с природой, гармонией, ростом. Выбор цветовой палитры должен соответствовать жанру музыки, посылу артиста и целевой аудитории. Важно также учитывать культурные особенности восприятия цветов. Экспериментируйте, но помните о цели вашего дизайна.</p>
+                            <p>Примеры использования: для поп-музыки часто выбирают яркие и насыщенные цвета, для рока — более темные и контрастные, для эмбиента — спокойные и пастельные. Но это лишь общие тенденции, всегда есть место креативу!</p>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <h3>Тренды в дизайне мерча 2024-2025</h3>
+                        <p class="article-summary">Мерч — это не просто одежда с логотипом, а способ самовыражения фанатов и важная часть бренда артиста. Рассмотрим актуальные тренды: от минимализма до ярких кастомных принтов, экологичных материалов и интерактивных элементов...</p>
+                        <button class="read-more-btn" aria-expanded="false">Читать далее</button>
+                        <div class="article-full-content">
+                            <p>В последние годы наблюдается рост популярности оверсайз моделей, использования экологически чистых материалов (органический хлопок, переработанный полиэстер). В принтах ценится уникальность: абстрактные иллюстрации, каллиграфия, фотоколлажи. Также в тренде элементы, связанные с дополненной реальностью (AR), когда при наведении камеры на принт он "оживает". Не забывайте про качество самого изделия — фанаты ценят долговечный мерч.</p>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <h3>Как подготовить ТЗ для дизайнера обложек?</h3>
+                        <p class="article-summary">Четкое техническое задание — залог успешного сотрудничества с дизайнером и получения результата, который вас порадует. Какие пункты обязательно должны быть в ТЗ, чтобы избежать недопонимания и правок?..</p>
+                        <button class="read-more-btn" aria-expanded="false">Читать далее</button>
+                        <div class="article-full-content">
+                            <p>Ключевые моменты ТЗ:
+                            <ul>
+                                <li><strong>Название трека/альбома и имя артиста.</strong></li>
+                                <li><strong>Жанр и настроение музыки.</strong> Приложите сам трек или его демо.</li>
+                                <li><strong>Целевая аудитория.</strong></li>
+                                <li><strong>Референсы:</strong> примеры обложек, которые вам нравятся (и не нравятся, с пояснениями).</li>
+                                <li><strong>Основные идеи, символы, метафоры,</strong> которые вы хотите отразить.</li>
+                                <li><strong>Предпочтения по цветам, стилю, шрифтам</strong> (если есть).</li>
+                                <li><strong>Технические требования:</strong> размер, формат файла (для стриминговых платформ обычно квадрат, мин. 3000x3000px, RGB).</li>
+                                <li><strong>Сроки и бюджет.</strong></li>
+                            </ul>
+                            Чем подробнее ТЗ, тем точнее дизайнер сможет воплотить ваше видение.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Кузьменко Матвей Алексеевич "PROD_BY_KUZZ". Все права защищены.</p>
+            <div class="social-links">
+                <a href="tel:89994464815" aria-label="Позвонить"><i class="fas fa-phone"></i> 8 (999) 446-48-15</a>
+                <a href="https://t.me/PO505OY" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                <a href="https://vk.com/po105oy" target="_blank" aria-label="VK"><i class="fab fa-vk"></i> VK</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

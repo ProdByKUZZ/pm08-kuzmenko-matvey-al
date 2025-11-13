@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навыки и Инструменты - Мое Портфолио</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">PROD BY KUZZ</a>
+            </div>
+             <div class="profile-pic-container">
+                <img src="images/profile-header.jpg" alt="Мое фото" class="profile-pic-header">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="skills.html" class="active">Навыки</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Сменить тему"><i class="fas fa-moon"></i></button>
+            <button class="menu-toggle" aria-label="Открыть меню"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section id="skills-page">
+            <div class="container">
+                <h2>Мои Навыки и Технологии</h2>
+                <p>В своей работе я активно использую передовые графические редакторы и технологии, что позволяет мне создавать визуально привлекательные и технически качественные проекты. Я постоянно совершенствую свои навыки и изучаю новые инструменты, чтобы оставаться на пике современных тенденций в дизайне.</p>
+                
+                <div class="tech-icons-grid">
+                    <div class="tech-icon-item">
+                        <img src="images/tech-photoshop.png" alt="Adobe Photoshop">
+                        <div>
+                           <p><strong>Adobe Photoshop:</strong></p>
+                           <p>Мой основной инструмент для работы с растровой графикой, фоторетуши, создания сложных коллажей и подготовки изображений для печати и веба.</p>
+                        </div>
+                    </div>
+                    <div class="tech-icon-item">
+                        <img src="images/tech-illustrator.png" alt="Adobe Illustrator">
+                         <div>
+                            <p><strong>Adobe Illustrator:</strong></p>
+                            <p>Использую для создания векторной графики – логотипов, иконок, иллюстраций и элементов дизайна, требующих идеальной масштабируемости.</p>
+                        </div>
+                    </div>
+                     <div class="tech-icon-item">
+                        <img src="images/tech-figma.png" alt="Figma">
+                        <div>
+                            <p><strong>Figma:</strong></p>
+                            <p>Отличный инструмент для UI/UX дизайна, прототипирования и совместной работы над проектами. Часто использую для создания макетов обложек и элементов мерча.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Инструменты Разработки и Организации</h2>
+                <div class="tools-block"> 
+                    <div class="tool-item">
+                        <img src="images/tech-vscode.png" alt="VS Code Icon">
+                        <h3>VS Code</h3>
+                        <p>Мой выбор для веб-разработки (например, этого сайта) и работы с кодом. Удобный, быстрый и расширяемый редактор.</p>
+                    </div>
+                    <div class="tool-item">
+                        <img src="images/tech-git.png" alt="Git Icon">
+                        <h3>Git</h3>
+                        <p>Система контроля версий, которую я использую для управления своими проектами, особенно когда речь идет о коде или сложных дизайн-системах.</p>
+                    </div>
+                    <div class="tool-item">
+                        <i class="fas fa-tasks advantage-icon" style="font-size: 50px; margin-bottom: 15px;"></i>
+                        <h3>Менеджеры задач</h3>
+                        <p>Использую Trello, Asana или аналоги для планирования работы, отслеживания прогресса и эффективного управления проектами.</p>
+                    </div>
+                </div>
+                 <button class="hide-block-btn" data-target=".tools-block">Скрыть Инструменты</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Кузьменко Матвей Алексеевич "PROD_BY_KUZZ". Все права защищены.</p>
+            <div class="social-links">
+                <a href="tel:89994464815" aria-label="Позвонить"><i class="fas fa-phone"></i> 8 (999) 446-48-15</a>
+                <a href="https://t.me/PO505OY" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                <a href="https://vk.com/po105oy" target="_blank" aria-label="VK"><i class="fab fa-vk"></i> VK</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

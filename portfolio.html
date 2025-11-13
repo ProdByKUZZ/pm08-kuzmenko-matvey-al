@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Мои Работы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">PROD BY KUZZ</a>
+            </div>
+             <div class="profile-pic-container">
+                <img src="images/profile-header.jpg" alt="Мое фото" class="profile-pic-header">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="portfolio.html" class="active">Портфолио</a></li>
+                    <li><a href="skills.html">Навыки</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Сменить тему"><i class="fas fa-moon"></i></button>
+            <button class="menu-toggle" aria-label="Открыть меню"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section id="portfolio-page">
+            <div class="container">
+                <h2>Портфолио</h2>
+                <div class="gallery-scroll-container"> <!-- Обертка для прокрутки -->
+                    <div class="gallery-grid"> <!-- Этот класс теперь будет flex-контейнером -->
+                        <!-- Карточка 1 -->
+                        <div class="project-card">
+                            <img src="images/project1.jpg" alt="Обложка трека 'Космический Пульс'">
+                            <h3>Обложка "Космический Пульс"</h3>
+                            <button class="details-btn" aria-expanded="false">Подробнее</button>
+                            <div class="project-details">
+                                <p>Эта обложка была создана для электронного музыканта. Целью было передать ощущение бесконечного космоса и ритмичной энергии трека. Использовались неоновые цвета и абстрактные формы.</p>
+                                <a href="https://t.me/PROD_BY_KUZZ" target="_blank" class="cta-button-small">Мой канал в Telegram</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 2 -->
+                        <div class="project-card">
+                            <img src="images/project2.jpg" alt="Мерч 'Эхо Улиц'">
+                            <h3>Мерч "Эхо Улиц"</h3>
+                            <button class="details-btn" aria-expanded="false">Подробнее</button>
+                            <div class="project-details">
+                                <p>Дизайн для лимитированной коллекции мерча "BLUFF" дизайнера "PROD BY KUZZ". В основе — минималистичный стиль с акцентом на типографику и узнаваемый символ, отражающий нужную тематику.</p>
+                                 <a href="https://t.me/PROD_BY_KUZZ" target="_blank" class="cta-button-small">Мой канал в Telegram</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 3 -->
+                         <div class="project-card">
+                            <img src="images/project3.jpg" alt="Обложка 'Cristoforo Colombo'">
+                            <h3>Обложка "Cristoforo Colombo"</h3>
+                            <button class="details-btn" aria-expanded="false">Подробнее</button>
+                            <div class="project-details">
+                                <p>Обложка для акустического альбома исполнителя "Friendly Thug 52 Ngg". Главная задача — передать теплоту, искренность и природную атмосферу музыки. Обложка сделана в собственном стиле ради эксперемента.</p>
+                                 <a href="https://t.me/PROD_BY_KUZZ" target="_blank" class="cta-button-small">Мой канал в Telegram</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 4 -->
+                        <div class="project-card">
+                            <img src="images/project4.jpg" alt="Обложка к треку">
+                            <h3>Обложка к треку</h3>
+                            <button class="details-btn" aria-expanded="false">Подробнее</button>
+                            <div class="project-details">
+                                <p>Яркая и абстрактная работа, изображающая два силуэта человеческих фигур, заставляющие слушателя проявить собственную фантазию. </p>
+                                 <a href="https://t.me/PROD_BY_KUZZ" target="_blank" class="cta-button-small">Мой канал в Telegram</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 5 -->
+                         <div class="project-card">
+                            <img src="images/project5.jpg" alt="Постер 'Пространство'">
+                            <h3>Постер "Пространство"</h3>
+                            <button class="details-btn" aria-expanded="false">Подробнее</button>
+                            <div class="project-details">
+                                <p>Общий дизайн напоминает современное футуристическое искусство с акцентом на игровые и технологические элементы. Фон представляет собой градиент темных и светлых фиолетовых оттенков с едва заметными облаками, разбросанными по всему плакату, что создает ощущение глубины и атмосферы.</p>
+                                 <a href="https://t.me/PROD_BY_KUZZ" target="_blank" class="cta-button-small">Мой канал в Telegram</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 6 -->
+                         <div class="project-card">
+                            <img src="images/project6.jpg" alt="Обложка 'Лабиринт'">
+                            <h3>Обложка "Лабиринт"</h3>
+                            <button class="details-btn" aria-expanded="false">Подробнее</button>
+                            <div class="project-details">
+                                <p>Изображение представляет собой темную, несколько меланхоличную обложку альбома. Общий стиль — графический дизайн с элементами сюрреализма и, возможно, фильма нуар. На заднем плане доминирует структура, похожая на лабиринт, что дает ощущение темы странствий, поиска и потери. </p>
+                                 <a href="https://t.me/PROD_BY_KUZZ" target="_blank" class="cta-button-small">Мой канал в Telegram</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 7 -->
+                        <div class="project-card">
+                            <img src="images/project7.jpg" alt="3D Модель">
+                            <h3>3D Модель "Клавиатура"</h3>
+                            <button class="details-btn" aria-expanded="false">Подробнее</button>
+                            <div class="project-details">
+                                <p>3d Модель для итеграции на ваш сайт или в любой другой проект. </p>
+                                 <a href="https://t.me/PROD_BY_KUZZ" target="_blank" class="cta-button-small">Мой канал в Telegram</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 8 -->
+                        <div class="project-card">
+                            <img src="images/project8.jpg" alt="Обложка Андеграунд">
+                            <h3>Обложка Андеграунд</h3>
+                            <button class="details-btn" aria-expanded="false">Подробнее</button>
+                            <div class="project-details">
+                                <p>Обложка выполнена в андеграунд стиле для тематических музыкальных композиций. </p>
+                                 <a href="https://t.me/PROD_BY_KUZZ" target="_blank" class="cta-button-small">Мой канал в Telegram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align: center; margin-top: 20px; font-style: italic;">Прокручивайте галерею по вертикали, чтобы увидеть все работы.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Кузьменко Матвей Алексеевич "PROD_BY_KUZZ". Все права защищены.</p>
+            <div class="social-links">
+                <a href="tel:89994464815" aria-label="Позвонить"><i class="fas fa-phone"></i> 8 (999) 446-48-15</a>
+                <a href="https://t.me/PO505OY" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                <a href="https://vk.com/po105oy" target="_blank" aria-label="VK"><i class="fab fa-vk"></i> VK</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

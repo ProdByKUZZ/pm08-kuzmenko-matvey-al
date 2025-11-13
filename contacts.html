@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Свяжитесь со мной</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">PROD BY KUZZ</a>
+            </div>
+             <div class="profile-pic-container">
+                <img src="images/profile-header.jpg" alt="Мое фото" class="profile-pic-header">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="skills.html">Навыки</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Сменить тему"><i class="fas fa-moon"></i></button>
+            <button class="menu-toggle" aria-label="Открыть меню"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section id="contacts-page">
+            <div class="container">
+                <h2>Свяжитесь со мной</h2>
+                <p>Если у вас есть проект, идея или просто вопрос — не стесняйтесь написать мне. Я всегда открыт для интересных предложений и сотрудничества!</p>
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <h3>Отправить сообщение:</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Ваше имя:</label>
+                                <input type="text" id="name" name="name" required 
+                                       pattern="[А-Яа-яЁёA-Za-z\s]{2,50}" 
+                                       title="Имя должно содержать только буквы (минимум 2 символа)"
+                                       placeholder="Иван Иванов">
+                                <small class="error-message"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Ваш Email:</label>
+                                <input type="email" id="email" name="email" required 
+                                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                       title="Введите корректный email (пример: example@mail.com)"
+                                       placeholder="example@mail.com">
+                                <small class="error-message"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Тема обращения:</label>
+                                <select id="service" name="service" required>
+                                    <option value="">-- Выберите тему --</option>
+                                    <option value="cover">Заказ обложки для трека</option>
+                                    <option value="merch">Заказ дизайна мерча</option>
+                                    <option value="collaboration">Предложение о сотрудничестве</option>
+                                    <option value="question">Вопрос</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                                <small class="error-message"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Сообщение (мин. 10 символов):</label>
+                                <textarea id="message" name="message" rows="5" required 
+                                          minlength="10"
+                                          title="Сообщение должно содержать минимум 10 символов"
+                                          placeholder="Опишите ваш проект или вопрос..."></textarea>
+                                <small class="error-message"></small>
+                            </div>
+                            <button type="submit" class="cta-button">Отправить</button>
+                        </form>
+                        <div id="form-status"></div>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Прямые контакты:</h3>
+                        <p><i class="fas fa-phone"></i> <a href="tel:89994464815">8 (999) 446-48-15</a></p>
+                        <p><i class="fab fa-telegram-plane"></i> <a href="https://t.me/PO505OY" target="_blank">Telegram: @PO505OY</a></p>
+                        <p><i class="fab fa-vk"></i> <a href="https://vk.com/po105oy" target="_blank">VK: po105oy</a></p>
+                        
+                        <h4>Я в соцсетях:</h4>
+                        <div class="social-icons-contact">
+                            <a href="https://t.me/PROD_BY_KUZZ" target="_blank" aria-label="Telegram">
+                                <i class="fab fa-telegram-plane" style="font-size: 30px; color: #27A0D9;"></i>
+                            </a>
+                            <a href="https://vk.com/prodbykuzz" target="_blank" aria-label="VK">
+                                <i class="fab fa-vk" style="font-size: 30px; color: #4a76a8;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Кузьменко Матвей Алексеевич "PROD_BY_KUZZ". Все права защищены.</p>
+            <div class="social-links">
+                <a href="tel:89994464815" aria-label="Позвонить"><i class="fas fa-phone"></i> 8 (999) 446-48-15</a>
+                <a href="https://t.me/PO505OY" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                <a href="https://vk.com/po105oy" target="_blank" aria-label="VK"><i class="fab fa-vk"></i> VK</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
